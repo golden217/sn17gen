@@ -63,7 +63,7 @@ MODE = "v2"              # "v1" (no refine) | "v2" (gen + one render-and-refine 
 REFINE_VERSION = "f1"    # v2 only: "f1" | "f2"
 REFINE_VIEWS = "front4"  # v2 only: "front4" | "grid"
 REFINE_CREDIT_CAP = 4_000_000  # v2 only: refine call(s) run while recorded spend + worst case <= this (v2.2); gen keeps 3M
-TICKET = "t0"            # label carried in every request tag; give each own hotkey's commit its own ticket
+TICKET = "sven_253"            # label carried in every request tag; give each own hotkey's commit its own ticket
 SERVICE_TIER_FRACTION = 0.0  # share of prompts on FAST_TIER, picked by sha256(image) (0.0 = no service_tier key = 0.2.0 bytes)
 FAST_TIER = "fast"       # service_tier of the selected prompts' gen + refine calls ("fast" = 2x cash, ~1.8x speed; U1)
 REFINE_RETRY = True      # v2 only: one refine retry (attempt 1) after a recorded retryable failure incl. a stream cut (0.2.2 v2r; False = 0.2.1)
